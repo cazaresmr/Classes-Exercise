@@ -18,19 +18,6 @@
             Console.WriteLine($"Year: {myCar.Year}");
         }
     }
-
-    // Create a class named Car - make sure it is public
-    public class Car
-    {
-        // Create a Make property of type string that is public
-        public string Make { get; set; } = default!;
-
-        // Create a Model property of type string that is public and required
-        public string Model { get; set; } = default!;
-
-        // Create a Year property of type int that is public
-        public int Year { get; set; }
-    }
 }
 
 
